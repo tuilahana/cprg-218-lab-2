@@ -1,10 +1,5 @@
-image1.addEventListener('change',function(){
+image1.addEventListener('click',function(){
     console.log("image1");
-    document.body.classList.remove("image2");
-    document.body.classList.remove("image3");
-    document.body.classList.remove("image4");
-    document.body.classList.remove("image5");
-    document.body.classList.add('image1');
     document.getElementById('displayed-image').src="sheep.webp";
 	document.getElementById('displayed-image').alt="bighorn sheeps";
     document.getElementById("image1").style.background= "#97bf04";
