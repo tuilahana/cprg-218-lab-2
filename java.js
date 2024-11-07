@@ -1,4 +1,4 @@
-image1.addEventListener('click',function(){
+image1.addEventListener('change',function(){
     console.log("image1");
     document.body.classList.remove("image2");
     document.body.classList.remove("image3");
